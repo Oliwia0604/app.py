@@ -1,3 +1,12 @@
-@app.route('/message', methods=['POST'])
-def post_message():
-    return "OK"
+<html>
+    <head></head>
+
+    <body>
+        <form action="" method="POST">
+            <label>First Name</label>
+            <input name="firstname"/>
+            <input type="submit"/>
+        </form>
+    </body>
+
+</html>
